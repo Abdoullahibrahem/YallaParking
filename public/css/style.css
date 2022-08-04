@@ -1,0 +1,87 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --bs-orange:#f18120;
+}
+.navbar{
+    height: 11vh;
+    background-color: white;
+}
+.navbar .navbar-nav .nav-link{
+    color: black;
+    
+}
+.navbar .navbar-collapse{
+    background-color: white;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: var(--bs-orange);
+}
+
+.card .card-body .card-title{
+    font-size: 20px;
+}
+.card .card-body .card-text{
+    font-size: 16px;
+    
+}
+.card{
+    padding: 0;
+}
+.carousel{
+    height: 220px;
+    position: relative;
+}
+.carousel .carousel-indicators button{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+
+
+}
+.card .card-body .comm-content{
+    background-color: var(--bs-orange);
+    height: 280px;
+    width: 420px;
+    color: white;
+    font-size: 15px;
+    
+    
+}
+.card .card-body .card-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.carousel .comm-dots{
+    position: absolute;
+    top: 450px;
+}
+.community{
+    background-color: rgba(128, 128, 128, 0.619);
+    height: 700px;
+}
+.featured{
+    height: 300px;
+}
+.icon{
+    color: var(--bs-orange);
+}
+.text-decoration-none:hover{
+    color: var(--bs-orange);
+}
+span{
+    color: var(--bs-orange);
+}
+.hr2{
+    width: 80%;
+    margin: auto;
+}
+a{
+    color: #777;
+}
+a:hover{
+    color: #f18120;
+}
+
